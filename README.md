@@ -1,19 +1,45 @@
-# daily-doc
+# Daily Doc
 
-# About the Project
+The project leverages the OpenAI ChatGPT model to provide a conversational experience with a medical expert. It utilizes the Gradio library to create a user-friendly web interface
 
-The project leverages the OpenAI ChatGPT model to provide a conversational experience with a medical expert. It utilizes the Gradio library to create a user-friendly web interface.
+## Installation
 
-The main.py file contains the main Python script that sets up the Gradio interface and handles user interactions. The requirements.txt file lists the required Python dependencies for running the project.
+1. Clone the repository:
 
-# Acknowledgements
+2. Install the required dependencies:
 
-This project was created with the help of the resources available at Haihai.AI ChatGPT API. We are grateful for their support in building Daily Doc.
+## API Key
 
-# Contributing
+To use Daily Doc, you need to obtain an API key from OpenAI. Follow the steps below:
 
-Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue on the GitHub repository.
+1. Visit the [OpenAI website](https://www.openai.com) and sign in to your account.
+2. Navigate to the API section and generate an API key.
+3. Copy the API key and replace the placeholder `YOUR_API_KEY` in the code with your actual API key.
 
-# License
+## Usage
 
-This project is licensed under the MIT License.
+1. Run the Python script:
+
+2. Open your web browser and go to the provided URL to access the chat interface.
+
+3. Type your questions or inputs in the text field and press Enter to get responses from the virtual medical expert.
+
+## Customization
+
+- You can customize the behavior of Daily Doc by modifying the code. For example, you can add additional prompts, adjust the response generation parameters, or customize the user interface using Gradio's options.
+
+## Dependencies
+
+- Python 3.7 or above
+- openai 0.27.0
+- gradio 2.3.2
+
+## Acknowledgements
+
+- This project is built on the OpenAI GPT-3.5 Turbo model and is inspired by the blog post [Build a Chatbot with OpenAI's ChatGPT API](https://www.haihai.ai/chatgpt-api/) by Haihai. We acknowledge their valuable insights and instructions for building a chatbot using OpenAI's ChatGPT API.
+
+## License
+
+The code in this repository is licensed under the [MIT License](LICENSE).
+
+
