@@ -1,8 +1,7 @@
-import config
 import openai
 import gradio
 
-openai.api_key = config.API_KEY
+openai.api_key = "YOUR_API_KEY"
 
 messages = [{"role": "system", "content": "You are a doctor that specializes in medicine"}]
 
